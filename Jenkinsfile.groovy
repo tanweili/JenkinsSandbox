@@ -5,6 +5,7 @@ pipeline {
             steps {
                 echo "Testing script.."
                 bat(script: "HelloWorld.bat")
+                sh(script: "HelloWorld.sh")
             }
         }
     }
